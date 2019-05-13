@@ -1,4 +1,6 @@
-<?php 
+
+<?php
+<!---get student details--->
 require_once("includes/config.php");
 if(!empty($_POST["studentid"])) {
   $studentid= strtoupper($_POST["studentid"]);
